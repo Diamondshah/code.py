@@ -1,0 +1,24 @@
+# a=7
+# b=9
+# print(a+b)
+# print(a-b)
+# print(a/b)
+# print(b/a)
+# print(a*b)
+# print(b%a)
+# print(a**b)
+# print(b**a)
+# print(a//b)
+# print(b//a)
+# print(a>b)
+# print(a<b)
+# print(a==b)
+# print(a!=b)
+# print(a>=b)
+# print(a<=b)
+g=19
+f=20
+sum=g+f
+print(sum)
+div=g/f
+print(div)
