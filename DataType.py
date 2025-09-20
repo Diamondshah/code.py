@@ -35,6 +35,6 @@
 # print(bro<me)
 
 # none
-gf=None
-print(gf)
-print(type(gf))
+# gf=None
+# print(gf)
+# print(type(gf))
