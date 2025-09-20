@@ -17,11 +17,11 @@
 # print(bro==me)
 
 # type of variable
-name="Diamond"
-age=20
-Bank="citybank"
-height=5.6
-print(type(name))
-print(type(age))
-print(type(Bank))
-print(type(height))
+# name="Diamond"
+# age=20
+# Bank="citybank"
+# height=5.6
+# print(type(name))
+# print(type(age))
+# print(type(Bank))
+# print(type(height))
