@@ -25,3 +25,15 @@
 # print(type(age))
 # print(type(Bank))
 # print(type(height))
+
+# Data type
+# String
+name="Diamond"
+print(name)
+print(type(name))
+print(len(name))
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[6])
