@@ -33,13 +33,13 @@
 
 #Q6....WAP to find the occurrence/count of '$' in a string 
 
-# name="Kaluaa Praksh"
+# name="Praksh"
 # print(name,"in a :",name.count("a"))
 
-#Q7.... Audlt Checker 
-Name=input("Enter Your Name :")
-age=int(input("Enter Your Age : "))
-if age>=18 :
-    print(Name,"you name Eligible to voting ")
-else :
-    print(Name,"you are not eligible to voting" )
+# #Q7.... Audlt Checker 
+# Name=input("Enter Your Name :")
+# age=int(input("Enter Your Age : "))
+# if age>=18 :
+#     print(Name,"you name Eligible to voting ")
+# else :
+#     print(Name,"you are not eligible to voting" )
