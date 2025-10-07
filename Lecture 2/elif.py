@@ -25,16 +25,16 @@
 
 
 #Nested if else
-age=int(input("Enter your Age :"))
-if age>=18:
-    print("You are Eligible to Voting")
-    if age>=21:
-        print("You are Eligible for Driving")
-        if age>=24:
-            print("You are Eligible for Marriage")
-        else:
-            print("You are not Eligible for Marriage")
-    else:
-        print("You are not Eligible for Driving")
-else:
-    print("You are not Eligible to Voting")
+# age=int(input("Enter your Age :"))
+# if age>=18:
+#     print("You are Eligible to Voting")
+#     if age>=21:
+#         print("You are Eligible for Driving")
+#         if age>=24:
+#             print("You are Eligible for Marriage")
+#         else:
+#             print("You are not Eligible for Marriage")
+#     else:
+#         print("You are not Eligible for Driving")
+# else:
+#     print("You are not Eligible to Voting")

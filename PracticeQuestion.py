@@ -43,3 +43,32 @@
 #     print(Name,"you name Eligible to voting ")
 # else :
 #     print(Name,"you are not eligible to voting" )
+
+#Q8.... WAP to check if a number entered by the user is odd or even.
+
+# num=int(input("Enter Your Number :"))
+# if(num%2==0):
+#     print(num,"is Even Number" )
+# else :
+#     print(num,"is odd Number")
+
+#Q9....WAP to find the greatest of 3 number entered by the user.
+# a=int(input("Enter you Number a : "))
+# b=int(input("Enter your Number b :"))
+# c=int(input("Enter your Number c : "))
+# if(a>b and b>c):
+#     print("a is Greatest NUmber" )
+# elif(b>a and b>c):
+#     print("b is greatest Number ")
+# elif(c>a and c>b):
+#     print("c is Greatest Number ")
+# else :
+#     print("I think some number are Equale Check Again")
+
+#Q10...WAP to check if a number is a multiple of 7 or Not?
+
+num=int(input("Enter  Your Number : "))
+if (num%7==0) :
+    print(num,"Is multiple of 7 ")
+else :
+    print(num,"Is not Multiple of 7")
