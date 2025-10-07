@@ -41,9 +41,21 @@
 # print(type(e))
 
 #String Concatenation
-a="Hello"
-b="World"
-c=a+" "+b
-print(c)
-print(type(c))
-print(a+b)
+# Concatenation means joining two strings
+
+# a="Hello"
+# b="World"
+# c=a+" "+b
+# print(c)
+# print(type(c))
+# print(a+b)
+# Name="Diamond"
+# Greeting="Good Morning"
+# print(Greeting+" "+Name)
+# print(Greeting+", "+Name)
+# print(Greeting+" "+Name+"!")
+
+#Length of String
+# len() function is used to find the length of a string
+# a="Hello World"
+# print(len(a))
