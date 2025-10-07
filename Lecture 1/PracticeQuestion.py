@@ -20,8 +20,9 @@
 # average=sum/2
 # print("Average of those Number : ",average)
 
-"""Q4... WAP to input 2 Number and print ture if a<=b efse false"""
+# """Q4... WAP to input 2 Number and print ture if a<=b efse false"""
 
-a=int(input("Enter your first Num a : "))
-b=int(input("Enter your secand Num b :"))
-print(a<=b)
+# a=int(input("Enter your first Num a : "))
+# b=int(input("Enter your secand Num b :"))
+# print(a<=b)
+
