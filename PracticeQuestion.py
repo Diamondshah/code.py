@@ -26,3 +26,13 @@
 # b=int(input("Enter your secand Num b :"))
 # print(a<=b)
 
+# Q5.....WAP to input user's First Name & Print its lengh
+
+# name=input("Enter your Name")
+# print("lenth of Name :",len(name))
+
+#Q6....WAP to find the occurrence/count of '$' in a string 
+
+# name="Kaluaa Praksh"
+# print(name,"in a :",name.count("a"))
+
