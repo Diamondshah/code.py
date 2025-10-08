@@ -30,7 +30,7 @@
 
 # List of Method................
 
-nunu=[49,65,21,85,64,15,24,33,54,25]
+# nunu=[49,65,21,85,64,15,24,33,54,25]
 # print(nunu)
 # print(nunu[4:8])
 # nunu.append(99)
@@ -38,5 +38,10 @@ nunu=[49,65,21,85,64,15,24,33,54,25]
 # print(nunu.sort())
 # nunu.sort()
 # nunu.sort(reverse=True)
-nunu.reverse()
-print(nunu)
+# nunu.reverse()
+# nunu.insert(2,"hey")
+# print(nunu)
+
+game=['a','d','ac','ab','aaf',]
+game.sort()
+print(game)
