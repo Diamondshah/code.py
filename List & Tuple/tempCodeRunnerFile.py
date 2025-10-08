@@ -1,0 +1,1 @@
+nunu.remove(21)
