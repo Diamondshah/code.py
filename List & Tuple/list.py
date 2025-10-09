@@ -47,5 +47,5 @@
 # print(game)
 nunu=[49,65,21,85,64,15,24,33,54,25]
 # nunu.remove(21)
-nunu.pop(3)
-print(nunu)
+# nunu.pop(3)
+# print(nunu)
