@@ -75,13 +75,39 @@
 
 #Q11....WAP to ask the user to enter names
 #  of their 3 favorite movies & store them in a list 
-movies=[]
-mov1=input("enter your first movie")
-mov2=input("Enter your second movie")
-mov3=input("Enter your third movie")
-# movies=[mov1,mov2,mov3]
-movies.append(mov1)
-movies.append(mov2)
-movies.append(mov3)
-print(movies)
+# movies=[]
+# mov1=input("enter your first movie")
+# mov2=input("Enter your second movie")
+# mov3=input("Enter your third movie")
+# # movies=[mov1,mov2,mov3]
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
+# print(movies)
 
+#Q12....WAP if a list contains a palindrome of elements.
+#(Hint:use copy()method)
+# group=[1,2,3,2,1]
+# group1=group.copy()
+# group1.reverse()
+# if(group1==group):
+#     print("its Palindrome")
+# else:
+#     print("its not Palindrome")
+# drome=[1,2,3,2,1]
+# drome3=drome.copy()
+# drome3.reverse()
+# # drome2=drome[::-1]
+# if (drome3==drome):
+#     print("its palindrome")
+# else:
+#     print("its not palindrome")
+
+#Q13.... WAP to count the number of students with the 'A' grade in the following tuple
+# tup=('A','C','D','A','B,','C','A','D')
+# print(tup.count('A'))
+
+# Store the above values in alist & sort them from "a to "D"
+tup=['A','C','D','A','B,','C','A','D']
+tup.sort()
+print(tup)
