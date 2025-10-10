@@ -4,13 +4,20 @@
 #  and they have keys and values.
 #Creating a Dictionary
 #Dictionary={key:Value,Kay:Value,Key:Value,Key:Value,Key:Value}
-
+no_frnd={}
 frnd={
-    "Prince":21,
+    "info":["name","age"],
+    "type":("str","inteager"),
+    "Prince":21.5,
     "avisash":19,
     "Diamond":20,
     "Rohit":19,
     "Nitesh":20
 }
-print(frnd(2))
+print(type(no_frnd))
+# frnd["yaksh"]=22
+# frnd["Rohit"]=20
 # print(frnd)
+# print(frnd["Diamond"])
+# print(frnd["Rohit"])
+# print(frnd["Nitesh"])
