@@ -13,9 +13,8 @@
 #  Tuple are iterable.
 #  Tuple are used to store data that should not be changed.
 #
-tup=(4,)
-tup[1]=6
-print(tup)
-print(type(tup))
+# tup=(4,)
+# print(tup)
+# print(type(tup))
 
 
