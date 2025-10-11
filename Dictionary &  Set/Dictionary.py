@@ -24,16 +24,38 @@
 
 
 #Nested Dictionary...........
-Result={
-    "name":"Prakash",
-    "sub":{
-        "phy":48,
-        "math":98,
-        "Hindi":68,
-        "English":78,
-    }
-}
+# Result={
+#     "name":"Prakash",
+#     "sub":{
+#         "phy":48,
+#         "math":98,
+#         "Hindi":68,
+#         "English":78,
+#     }
+# }
 # print(Result)
 # print(Result[sub["math"]])    # ✖ method
 
-print(Result["sub"]["math"])
+# print(Result["sub"]["math"])
+
+
+
+#Dictionary Methods.......
+
+frnd={
+    "info":["name","age"],
+    "type":("str","inteager"),
+    "Prince":21.5,
+    "avisash":19,
+    "Diamond":20,
+    "Rohit":19,
+    "Nitesh":20
+}
+
+# frnd_key=frnd.keys()
+# print(frnd_key)
+# frnd_Value=frnd.values()
+# print(frnd_Value)
+key_list=list(frnd.keys())
+print(key_list)
+print(key_list[2])
