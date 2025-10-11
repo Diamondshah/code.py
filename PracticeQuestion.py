@@ -108,6 +108,24 @@
 # print(tup.count('A'))
 
 # Store the above values in alist & sort them from "a to "D"
-tup=['A','C','D','A','B,','C','A','D']
-tup.sort()
-print(tup)
+# tup=['A','C','D','A','B,','C','A','D']
+# tup.sort()
+# print(tup)
+
+#Q.... Store Following word meanings in a python dictionary:
+
+# dic={
+#     "table":("a piece of furniture","list of facts & Figures"),
+#     "cat":"a cat is a small animal"    
+# } 
+# print(dic)
+
+
+#Q.....You are given a list of subjects for students.Assume one classroom 
+# is required for 1 
+# subject.How many classrooms are needed by all students.
+
+#"python","java","C++","python","javascript","java","python","java","C++","C"
+
+sub={"python","java","C++","python","javascript","java","python","java","C++","C"}
+print("nuber of class are required :" ,len(sub))

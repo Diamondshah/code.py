@@ -51,11 +51,12 @@ frnd={
     "Rohit":19,
     "Nitesh":20
 }
-
+# frnd.update({"Prakash":14})
+# print(frnd)
 # frnd_key=frnd.keys()
 # print(frnd_key)
 # frnd_Value=frnd.values()
 # print(frnd_Value)
-key_list=list(frnd.keys())
-print(key_list)
-print(key_list[2])
+# key_list=list(frnd.keys())
+# print(key_list)
+# print(key_list[2])
