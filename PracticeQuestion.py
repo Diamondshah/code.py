@@ -127,5 +127,28 @@
 
 #"python","java","C++","python","javascript","java","python","java","C++","C"
 
-sub={"python","java","C++","python","javascript","java","python","java","C++","C"}
-print("nuber of class are required :" ,len(sub))
+# sub={"python","java","C++","python","javascript","java","python","java","C++","C"}
+# print("number of class are required :" ,len(sub))
+
+#Q...WAP to enter marks of 3 subjects from the user and them in a dictionary
+#start wih an empty dictionary & add one by one .Use subject name as Key & Marks as value.
+
+# data={}
+# x=input("enter the marks of phy : ")
+# data.update({"phy":x})
+# y=input("enter the marks of math : ")
+# data.update({"math":y})
+# z=input("enter the marks of Eng : ")
+# data.update({"Eng":z})
+# print(data)
+
+#Q..... Figure Out a way to store 9 & 9.0 as separate 
+#vale in the set . (you can take help of built-in-data-types)
+comp=set({})
+# comp.add(float(4))
+# comp.add(4.0)
+comp.add("9")
+comp.add("9.0")
+comp.add(("float",9.0))
+comp.add(("int",9))
+print(comp)
