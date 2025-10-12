@@ -12,8 +12,40 @@
 #     num=num-1
 
 # print 1 to 9 number 
-num=1
-while num<=9:
-    print(num)
-    num=num+1
+# num=1 
+# while  num<=9:
+#     print(num)
+#     num=num+1
 
+#Q....Print number from 1 to 100
+# num=1
+# while num<=100:
+#     print(num)
+#     num=num+1
+
+#Q....Print number from 100 to 1
+# num=100
+# while num>=0:
+#     print(num)
+#     num=num-1
+
+#Q....Print the multiplication table of a number n.
+# num=1
+# value=int(input("enter the number "))
+# while num<=10:
+#     print(num*value)
+#     num=num+1
+#Q....Print the elements of the following list using a loop
+
+
+list=[1,4,9,16,25,36,49,64,81,100]
+n=0
+while n<=len(list):
+    print(list[n])
+    n=n+1
+
+# num=1
+# list={}
+# while num<=10:
+#     list{print(num**2)}
+#     num=num+1
