@@ -56,4 +56,8 @@ n=0
 while n < len(list) :
     if(x==list[n]):
         print(n,"found")
+        # break
+        continue
+    else:
+        print("Finding...")
     n=n+1
