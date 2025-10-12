@@ -152,7 +152,50 @@
 # comp.add(("float",9.0))
 # comp.add(("int",9))
 # print(comp)
-#Q.... Print the elements of the following list using a loop:
-list=[1,4,9,16,25,36,49,64,81,100]
-for num in list :
-    print(num)
+# #Q.... Print the elements of the following list using a loop:
+# list=[1,4,9,16,25,36,49,64,81,100]
+# for num in list :
+#     print(num)
+#Q... Search for a number X in this tuple using loop:
+# list=[1,4,9,16,25,36,49,64,81,100]
+# x=49
+# idx=0
+# for el in list:
+#     if(el==x):
+#         print("number found at idex",idx)
+#         break
+#     idx+=1
+#Q.... WAP to find the sum of first n numbers.(using while)
+#while loop....
+# n=int(input("enter you number N : "))
+# sum=0
+# while n>=0:
+#     sum=sum+n
+#     n=n-1
+# print(sum)
+
+#for loop...
+
+# n=int(input("Enter the number N : "))
+# sum=0
+# for i in range(1,n+1):
+#     sum=sum+i
+# print(sum)
+
+#Q...WAP to find the factorial of first n number.(using for)
+
+#while loop....
+# n=int(input("enter you number N : "))
+# fect=1
+# while n>0:
+#     fect=fect*n
+#     n=n-1
+# print(fect)
+
+#for loop...
+
+n=int(input("Enter the number N : "))
+fect=1
+for i in range(1,n+1):
+    fect=fect*i
+print(fect)
