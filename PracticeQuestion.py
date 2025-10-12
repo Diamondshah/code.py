@@ -194,8 +194,8 @@
 
 #for loop...
 
-n=int(input("Enter the number N : "))
-fect=1
-for i in range(1,n+1):
-    fect=fect*i
-print(fect)
+# n=int(input("Enter the number N : "))
+# fect=1
+# for i in range(1,n+1):
+#     fect=fect*i
+# print(fect)
