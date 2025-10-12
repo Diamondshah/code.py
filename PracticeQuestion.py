@@ -152,3 +152,7 @@
 # comp.add(("float",9.0))
 # comp.add(("int",9))
 # print(comp)
+#Q.... Print the elements of the following list using a loop:
+list=[1,4,9,16,25,36,49,64,81,100]
+for num in list :
+    print(num)

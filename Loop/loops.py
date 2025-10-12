@@ -73,10 +73,23 @@
 #Continue: terminates execution in the current iteration & 
 # continues execution of the loop with the next iteration.
 
-num=0
-while num<=5:
-    if(num==3):
-        num=num+1
-        continue
-    print(num)
-    num=num+1
+# num=0
+# while num<=5:
+#     if(num==3):
+#         num=num+1
+#         continue
+#     print(num)
+#     num=num+1
+
+# For loops...
+#Loops are used for sequential.For traversing list ,string,tuples..etc.
+# list=[1,2,3,4,5]
+# veggies=["potato","brijal","Ladyfinger","cucumber"]
+# for val in veggies:
+#     print(val)
+# tup=(1,2,3,4,2,8,9)
+# for num in tup:
+#     print(num)
+# name="daymandkumarsah"
+# for char in name:
+#     print(char)
