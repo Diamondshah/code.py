@@ -50,14 +50,33 @@
 #     list{print(num**2)}
 #     num=num+1
 # Search for a number X in this tuple using loop:
-list=(1,4,9,16,25,36,49,64,81,100)
-x=int(input("Enter the value of X "))
-n=0
-while n < len(list) :
-    if(x==list[n]):
-        print(n,"found")
-        # break
+# list=(1,4,9,16,25,36,49,64,81,100)
+# x=int(input("Enter the value of X "))
+# n=0
+# while n < len(list) :
+#     if(x==list[n]):
+#         print(n,"found")
+#         # break
+#     else:
+#         print("Finding...")
+#     n=n+1
+#break in python......
+#Break: used to terminate the loop when encountered.
+# num=1
+# while num<=5:
+#     print(num)
+#     if(num==3):
+#         break
+#     num=num+1
+
+#Continue in Python.......
+#Continue: terminates execution in the current iteration & 
+# continues execution of the loop with the next iteration.
+
+num=0
+while num<=5:
+    if(num==3):
+        num=num+1
         continue
-    else:
-        print("Finding...")
-    n=n+1
+    print(num)
+    num=num+1
