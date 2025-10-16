@@ -53,17 +53,17 @@ func_name(arg1,arg2...)#function call
 # print_len(m_frnd)
 
 #Q....WAF to print the element of a list in a single line.(list os the parameter)
-frnd=["kaluaa","prince","Rohit","nitesh","akash","Niraj","avinash","Priyanshu","krishna","sunny"]
-m_frnd=["RAjveer","Mandeep","priya","falak","dilkash","ishika","mamta","puja","Gunvir","sanya","bhumika"]
+# frnd=["kaluaa","prince","Rohit","nitesh","akash","Niraj","avinash","Priyanshu","krishna","sunny"]
+# m_frnd=["RAjveer","Mandeep","priya","falak","dilkash","ishika","mamta","puja","Gunvir","sanya","bhumika"]
 
-def print_sline(list):
-    num=len(list)
-    n=0
-    for n in num:
-#     while n<num:
-        print(list[n],end=",")
-        n=n+1
+# def print_sline(list):
+#     num=len(list)
+#     n=0
+#     for n in num:
+# #     while n<num:
+#         print(list[n],end=",")
+#         n=n+1
 
-# print_sline(frnd)
-print_sline(m_frnd)
+# # print_sline(frnd)
+# print_sline(m_frnd)
 

@@ -199,3 +199,16 @@
 # for i in range(1,n+1):
 #     fect=fect*i
 # print(fect)
+
+#Q...WAP to find factorial of n.(n is the parameter)
+def facto(n):
+    num=0
+    factorial=0
+    while num<=n:
+        factorial=factorial+num
+        num=num+1
+        
+    print(factorial)
+
+n=int(input("Enter your number n : "))
+facto(n)
