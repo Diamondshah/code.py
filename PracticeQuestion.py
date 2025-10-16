@@ -214,10 +214,21 @@
 # facto(n)
 
 #Q....WAP to Convert USD to INR.
-def inr_convert(usd):
-    inr=usd*87
-    print(inr)
+# def inr_convert(usd):
+#     inr=usd*87
+#     print(inr)
 
-print("****.......USD to INR Converter.......******")
-usd=int(input("Enter your Amount in USD : $ "))
-inr_convert(usd)
+# print("****.......USD to INR Converter.......******")
+# usd=int(input("Enter your Amount in USD : $ "))
+# inr_convert(usd)
+
+#Q....WAP to Check ODD and Even Number
+def num_checker(num):
+    if(num%2==0):
+        print("Your number is EVEN ")
+    else:
+        print("Your num is ODD ")
+
+print("......ODD and EVEN number checker .....")
+num=int(input("Enter your Number : "))
+num_checker(num)
