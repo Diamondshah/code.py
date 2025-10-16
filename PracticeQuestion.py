@@ -201,14 +201,23 @@
 # print(fect)
 
 #Q...WAP to find factorial of n.(n is the parameter)
-def facto(n):
-    num=0
-    factorial=0
-    while num<=n:
-        factorial=factorial+num
-        num=num+1
+# def facto(n):
+#     num=0
+#     factorial=0
+#     while num<=n:
+#         factorial=factorial+num
+#         num=num+1
         
-    print(factorial)
+#     print(factorial)
 
-n=int(input("Enter your number n : "))
-facto(n)
+# n=int(input("Enter your number n : "))
+# facto(n)
+
+#Q....WAP to Convert USD to INR.
+def inr_convert(usd):
+    inr=usd*87
+    print(inr)
+
+print("****.......USD to INR Converter.......******")
+usd=int(input("Enter your Amount in USD : $ "))
+inr_convert(usd)
