@@ -3,8 +3,17 @@
 #Type of all files:-
 # 1. Text Files:. .txt,.doc,.log...etc.
 # 2. Binary Files:. .mp4, .mov, .png, .jpeg etc.
+"""
+'r'----Open for reading(default)
+'w'-----open for writing,truncating the file first
+'x'------create a new file and open it for writing
+'a'------open for writing,appending to the end of the file if it exists
+'b'-------binary mode
+'t'------text mode(default)
+'+'-------open a disk file for updating(reading and writing)
 
 
+"""
 #open,Read and Close a file.....
 #We have toi open a file before raeding or writing....
 #f=open("file_name","mode")
@@ -13,10 +22,16 @@
 #demo.docx                w: write mode
 #data=f.read()
 #f.close(q)
-f=open("demo.txt","r")
-data=f.read()
+# f=open("demo.txt","r")
+# data=f.read()
+# # print(data)
+# print(len(data))
+# print(type(data))
 # print(data)
-print(len(data))
-print(type(data))
-print(data)
-f.close()
+# f.close()
+# print("hlo")
+f = open("demo.txt", "r+t")  # Open in read+write text mode
+data = f.read()  # Read the file contents
+f.write("Some text")  # Write some text to the file
+f.close()  # Close the file when done
+print(data)  # Print the contents that were read
