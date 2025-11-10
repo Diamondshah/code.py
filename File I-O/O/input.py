@@ -30,8 +30,15 @@
 # print(data)
 # f.close()
 # print("hlo")
-f = open("demo.txt", "r+t")  # Open in read+write text mode
-data = f.read()  # Read the file contents
-f.write("Some text")  # Write some text to the file
-f.close()  # Close the file when done
-print(data)  # Print the contents that were read
+# f = open("demo.txt", "r+t")  # Open in read+write text mode
+# data = f.read()  # Read the file contents
+# f.write("Some text")  # Write some text to the file
+# f.close()  # Close the file when done
+# print(data)  # Print the contents that were read
+#Reading a ile and writing a file....
+f1 =open("demo.txt","r") #source file
+f2 =open("demo_copy.txt","w") #destination file
+data =f1.read()
+f2.write(data)
+f1.close()
+f2.close()
