@@ -83,4 +83,7 @@
 with open("baby.txt","a") as f:
     f.write("aabhi me check kar raha hu \n "
     "ki with open syntax kam kese karta hai ")
-    f.close()
+
+with open("baby.txt","r") as f:
+    data=f.read()
+    print(data)
