@@ -31,9 +31,27 @@ accessible from outside the class.
 
 #Inheritance:-
 #when one class(child/drived) derives the properties & methods of another class(parent/base).
+# Single inheritance:-
+# class Car:
+#     color="Black"
+#     @staticmethod
+#     def start():
+#         print("car started..")
+#     @staticmethod
+#     def stop():
+#         print("car Stoped..")
+# class ToyotaCar(Car):
+#     def __init__(self,name):
+#         self.name=name
 
+# car1=ToyotaCar("Fortuner")
+# car2=ToyotaCar("prius")
+# print(car1.name)
+# print(car1.start())
+# print(car1.color)
+
+# Multi level Inheritance:-
 class Car:
-    color="Black"
     @staticmethod
     def start():
         print("car started..")
@@ -41,11 +59,12 @@ class Car:
     def stop():
         print("car Stoped..")
 class ToyotaCar(Car):
-    def __init__(self,name):
-        self.name=name
-
-car1=ToyotaCar("Fortuner")
-car2=ToyotaCar("prius")
-print(car1.name)
+    def __init__(self,brand):
+        self.brand=brand
+class Fortunr(ToyotaCar):
+    def __init__(self, color):
+        self.color=color
+car1=Fortunr("Black")
+car2=Fortunr("White")
 print(car1.start())
-print(car1.color)
+# print(car1.color())
