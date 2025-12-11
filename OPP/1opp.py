@@ -61,13 +61,32 @@ which is always excuted when the class is being initiated"""
 """ The self parameter is a reference to the current 
 instance of the class, and is used to access variables
 that belong to the class"""
+# #Defult Constructors
+# class Student:
+#     def __init__(self):
 
-class Student:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-s1=Student("Mohan",12)
-s2=Student("ramu",15)
-s3=Student("Kalu",16)
+#parameterized constractor(name,age)
+# class Student:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+# s1=Student("Mohan",12)
+# s2=Student("ramu",15)
+# s3=Student("Kalu",16)
 
-print(s1.name)
+# print(s1.name)
+
+# ......Class & Instance Attributes...
+# Instance attributes ----> self.name,self.age(becouse sabka alag alag hoga)
+#Class Attributes---> only one time stored in memory (becouse sabka same hoga)
+
+class car():
+    comp="BMW"
+    def __init__(self,color,price):
+        self.colour=color
+        self.price=price
+
+car1=car("blur",25000)
+car2=car("Red",36000)
+print(car1.colour,car1.comp,car1.price)
+print(car2.comp,car2.colour,car2.price)
