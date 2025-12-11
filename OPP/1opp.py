@@ -15,10 +15,19 @@ code reuseblity increas hota hai """
 #Class & Object in Python:-
 #Class is a blueprint for creating objects.
 #creating class
+# class Student:
+#     name = "Diamond Kumar"
+#     age = 20
+# #creating object (instance)
+# s1 = Student()
+# print(s1.name)
+# print(s1.name,"\n" ,"age =",s1.age)
+
 class Student:
-    name = "Diamond Kumar"
-    age = 20
-#creating object (instance)
-s1 = Student()
+    name = "Diamond"
+
+s1=Student()
+print(s1)
 print(s1.name)
-print(s1.name,"\n" ,"age =",s1.age)
+s2=Student()
+print(s2.name)
