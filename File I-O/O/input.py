@@ -67,5 +67,20 @@
 # f.close()  
 # f=open("Baby.txt","a")
 # f.write("/this is testing for file creation \n python")
-f=open("Baby2.txt","w")
-f.write("/this is testing for file creation \n python")
+# f=open("Baby2.txt","w")
+# f.write("/this is testing for file creation \n python")
+
+# r+.....use for read and write , if we write
+# something in r+ mode then text overwrite in the staring 
+#  
+# w+(truncate + write) mode me file delete ho janega or nya data add karene per so karega
+
+# a+ mode me file read,+ writeing in append mode me open hoga 
+#  ishe overwrite nhi hoga staring me data add ho jayega
+
+# ..............with syntax...........
+
+with open("baby.txt","a") as f:
+    f.write("aabhi me check kar raha hu \n "
+    "ki with open syntax kam kese karta hai ")
+    f.close()
