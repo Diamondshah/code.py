@@ -109,19 +109,74 @@ that belong to the class"""
 # s1=Student("Dimaond",99)
 # # s1.welcome()
 # s1.get_marks()
-"""
-#Q...Create student class that takes name & marks of 3 subjects as
-argument in canstructor. Then create a method to print the average"""
-class Student():
-    def __init__(self,name,sub1,sub2,sub3):
-        self.name=name
-        self.sub1=sub1
-        self.sub2=sub2
-        self.sub3=sub3
+# """
+# #Q...Create student class that takes name & marks of 3 subjects as
+# argument in canstructor. Then create a method to print the average"""
+# class Student():
+#     def __init__(self,name,sub1,sub2,sub3):
+#         self.name=name
+#         self.sub1=sub1
+#         self.sub2=sub2
+#         self.sub3=sub3
 
-    def avg(self):
-        sum=self.sub1+self.sub2+self.sub3
-        average=sum/3
-        print(average)
-s1=Student("Diamond",65,95,33)
-s1.avg()
+#     def avg(self):
+#         sum=self.sub1+self.sub2+self.sub3
+#         average=sum/3
+#         print(average)
+# s1=Student("Diamond",65,95,33)
+# s1.avg()
+
+#Static Methods
+#methodsthat don't use the self parameter(work at class level)"""
+              #opp Important 
+              # Abstraction 
+              # Encapsulation
+              #Inheratience
+              #Polymorphism
+
+#Abstraction:-(bina kam ki chijhe user se chhupa lena bas kam wali chijhe hi dikhan )
+#Hiding the implementation detail od a class and only showing
+#the essentaila feature to the user.
+
+#Encapsulation:-
+#Wrapping data and Function into a single unit (object)
+
+#Abstraction:-
+
+
+# class Car:
+#     def __init__(self):
+#         self.acc=False
+#         self.brk=False
+#         self.clutch=False
+
+#     def start(self):
+#         self.clutch=True
+#         self.acc=True
+#         print("car started..")
+
+# car1=Car()
+# car1.start()
+
+#Create Account class with 2 attributes-Balance & 
+# account no,create method for debit ,credit &  printing the balance
+class Account:
+    def __init__(self,bal,acc):
+        self.balance = bal
+        self.account_no = acc
+
+    #debite method
+    def debit(self,amount):
+        self.balance -= amount
+        print("Rs",amount,"was debited..")
+        print("total balance =",self.get_balance())
+
+     def credit(self,amount):
+        self.balance += amount
+        print("Rs",amount,"was credited..")
+    def get_balance(self):
+        return self.balance
+    
+acc1=Account(25000,123456)
+acc1.debit(1500)
+acc1.credit(500)
