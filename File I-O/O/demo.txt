@@ -1,10 +1,6 @@
-Python is a high-level programming language.
+ Python is a high-level programming language.
 It is very easy to read and write.
 Python supports object-oriented programming.
 It has a huge collection of libraries.
-Pythonis used in AI and Machine Learning.
-It is also used for web development.
-Python code looks clean and simple.
-It works on all operating systems.
-Python is great for beginners.
-It is one of the most popular languages in the world.
+Python is used in AI and Machine Learning.
+It is also used for web development. Python code looks clean and simple. /n It works on all operating systems./n Python is great for beginners.

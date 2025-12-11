@@ -45,14 +45,23 @@
 
 
 #............file input and output:-........
-f=open("File I-O/O/demo.txt","r")
+# f=open("File I-O/O/demo.txt","r")
 # data=f.read()
 # data2=f.readline()
 # print(data2)
 # # print(data)
 # f.close()
-line1=f.readline()
-print(line1)
-line2=f.readline()
-print(line2)
-f.close()
+# line1=f.readline()
+# print(line1)
+# line2=f.readline()
+# print(line2)
+# f.close()
+f=open("File I-O/O/demo.txt","a")
+f.write(" Python code looks clean and simple. "/n " \
+"It works on all operating systems./n " \
+"Python is great for beginners.")
+
+f=open("File I-O/O/demo.txt","r")
+data=f.read()
+print(data)
+f.close()  
