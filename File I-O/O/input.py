@@ -56,12 +56,16 @@
 # line2=f.readline()
 # print(line2)
 # f.close()
-f=open("File I-O/O/demo.txt","a")
-f.write(" Python code looks clean and simple. "/n " \
-"It works on all operating systems./n " \
-"Python is great for beginners.")
+# f=open("File I-O/O/demo.txt","a")
+# f.write(" Python code looks clean and simple. \n " \
+# "It works on all operating systems.\n " \
+# "Python is great for beginners.")
 
-f=open("File I-O/O/demo.txt","r")
-data=f.read()
-print(data)
-f.close()  
+# f=open("File I-O/O/demo.txt","r")
+# data=f.read()
+# print(data)
+# f.close()  
+# f=open("Baby.txt","a")
+# f.write("/this is testing for file creation \n python")
+f=open("Baby2.txt","w")
+f.write("/this is testing for file creation \n python")
