@@ -36,9 +36,23 @@
 # f.close()  # Close the file when done
 # print(data)  # Print the contents that were read
 #Reading a ile and writing a file....
-f1 =open("demo.txt","r") #source file
-f2 =open("demo_copy.txt","w") #destination file
-data =f1.read()
-f2.write(data)
-f1.close()
-f2.close()
+# f1 =open("demo.txt","r") #source file
+# f2 =open("demo_copy.txt","w") #destination file
+# data =f1.read()
+# f2.write(data)
+# f1.close()
+# f2.close()
+
+
+#............file input and output:-........
+f=open("File I-O/O/demo.txt","r")
+# data=f.read()
+# data2=f.readline()
+# print(data2)
+# # print(data)
+# f.close()
+line1=f.readline()
+print(line1)
+line2=f.readline()
+print(line2)
+f.close()
