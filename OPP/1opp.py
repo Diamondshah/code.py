@@ -23,11 +23,51 @@ code reuseblity increas hota hai """
 # print(s1.name)
 # print(s1.name,"\n" ,"age =",s1.age)
 
-class Student:
-    name = "Diamond"
+# class Student:
+#     name = "Diamond"
 
-s1=Student()
-print(s1)
+# s1=Student()
+# print(s1)
+# print(s1.name)
+# s2=Student()
+# print(s2.name)
+
+# class car:
+#     color="blur"
+#     brand="BMW"
+# car1=car()
+# print(car1)
+# print(car1.color)
+# print(car1.brand)
+"""
+# __init__ Function:
+#Constructor
+#All classes have a function called __init _()
+which is always excuted when the class is being initiated""" 
+
+#Creating Class
+# class Student:
+#     def __init__(self,fullname,num_age):
+#         self.name = fullname
+#         self.age = num_age
+
+# #creating object
+# s1=Student("karan",28)
+# print(s1.name)
+# print(s1.age)
+# s2=Student("Diamond",20)
+# print(s2.name,"and age=",s2.age)
+
+""" The self parameter is a reference to the current 
+instance of the class, and is used to access variables
+that belong to the class"""
+
+class Student:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+s1=Student("Mohan",12)
+s2=Student("ramu",15)
+s3=Student("Kalu",16)
+
 print(s1.name)
-s2=Student()
-print(s2.name)
