@@ -172,7 +172,7 @@ class Account:
         print("total balance =",self.get_balance())
 
      def credit(self,amount):
-        self.balance += amount
+  s     self.balance += amount
         print("Rs",amount,"was credited..")
     def get_balance(self):
         return self.balance
