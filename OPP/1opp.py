@@ -80,13 +80,48 @@ that belong to the class"""
 # Instance attributes ----> self.name,self.age(becouse sabka alag alag hoga)
 #Class Attributes---> only one time stored in memory (becouse sabka same hoga)
 
-class car():
-    comp="BMW"
-    def __init__(self,color,price):
-        self.colour=color
-        self.price=price
+# class car():
+#     comp="BMW"
+#     def __init__(self,color,price):
+#         self.colour=color
+#         self.price=price
 
-car1=car("blur",25000)
-car2=car("Red",36000)
-print(car1.colour,car1.comp,car1.price)
-print(car2.comp,car2.colour,car2.price)
+# car1=car("blur",25000)
+# car2=car("Red",36000)
+# print(car1.colour,car1.comp,car1.price)
+# print(car2.comp,car2.colour,car2.price)
+
+#.........Methods........
+#Methods are functions that belongs to objects.
+
+# class Student():
+#     c_name="RIMT University"
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+
+#     def welcome(self):
+#         print("welcome student,",self.name)
+    
+#     def get_marks(self):
+#        print(self.marks)
+
+# s1=Student("Dimaond",99)
+# # s1.welcome()
+# s1.get_marks()
+"""
+#Q...Create student class that takes name & marks of 3 subjects as
+argument in canstructor. Then create a method to print the average"""
+class Student():
+    def __init__(self,name,sub1,sub2,sub3):
+        self.name=name
+        self.sub1=sub1
+        self.sub2=sub2
+        self.sub3=sub3
+
+    def avg(self):
+        sum=self.sub1+self.sub2+self.sub3
+        average=sum/3
+        print(average)
+s1=Student("Diamond",65,95,33)
+s1.avg()
