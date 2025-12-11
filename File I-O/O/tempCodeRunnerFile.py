@@ -1,0 +1,1 @@
+os.remove("baby2.txt")
